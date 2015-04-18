@@ -24,9 +24,22 @@
                 </ul>
             </nav>
             <main>
-            <section id="main">
-
-            </section>
+                <section id="main">
+                    <article>
+                        <h2>Mood Ring</h2>
+                        <p>Please tell me your mood...</p>
+                        <form id="moodForm" action="#">
+                            <label>Name:</label>
+                            <input type="text" id="name" placeholder="Enter your name here...">
+                            <br><br>
+                            <label>Mood:</label>
+                            <input type="text" id="mood" placeholder="Enter your mood here...">
+                            <br><br>
+                            <button onclick="showMood() ">Tell Me</button> <button onclick="clearMood() ">Clear Mood</button>
+                        </form>
+                        <div id="holder"></div>
+                    </article>
+                </section>
             <aside>
                 <h3>Sidebar</h3>
                 <p>

@@ -1,4 +1,4 @@
-/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+ /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
 
 html {
     color: #222;
@@ -108,8 +108,10 @@ main {
 }
 
 section#main {
+    position: relative;
     width: 70%;
     float: left;
+
 }
 
 aside{
@@ -120,6 +122,14 @@ aside{
 footer {
     padding: 10px;
     text-align: center;
+}
+
+#holder {
+    position: absolute;
+    top: 10px;
+    left: 320px;
+    font-size: 35px;
+    width: 260;
 }
 
 
