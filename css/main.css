@@ -80,6 +80,8 @@ ul {
 header#main {
     padding: 10px;
     background-color: #f4f4f4;
+    text-align: center;
+    font-size: 200%;
 }
 
 nav {
@@ -109,14 +111,10 @@ main {
 
 section#main {
     position: relative;
-    width: 70%;
+    width: 80%;
     float: left;
+    padding-left: 40px;
 
-}
-
-aside{
-    width: 20%;
-    float: right;
 }
 
 footer {
@@ -126,8 +124,8 @@ footer {
 
 #holder {
     position: absolute;
-    top: 10px;
-    left: 320px;
+    top: 70px;
+    left: 400px;
     font-size: 35px;
     width: 260;
 }
